@@ -1,0 +1,33 @@
+{
+  "name": "alexstack/silverstripe-custom-carousel-slider",
+	"description": "Add a Custom Carousel Slider to any page for SilverStripe. Multiple built-in slider template ready to use. Very easily to custom your own slider .ss template.",
+	"type": "silverstripe-vendormodule",
+	"homepage": "https://github.com/AlexStack/SilverStripe-Custom-Carousel-Slider",
+	"keywords": [
+		"silverstripe",
+		"custom",
+		"bootstrap",
+		"carousel",
+		"slider"
+	],
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Alex",
+			"homepage": "https://github.com/AlexStack/"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/AlexStack/SilverStripe-Custom-Carousel-Slider/issues"
+	},
+	"require": {
+		"silverstripe/cms": "~4.0",
+        "symbiote/silverstripe-gridfieldextensions": "~3.1"
+	},
+    "autoload": {
+        "psr-4": {
+            "SSCustomCarouselSlider\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
