@@ -1,5 +1,5 @@
 <% require css("https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css") %>
-<% require javascript("https://code.jquery.com/jquery-3.3.1.slim.min.js") %>
+<% require javascript("https://code.jquery.com/jquery-3.3.1.min.js") %>
 <% require javascript("https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js") %>
 <% require javascript("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js") %>
 
@@ -16,7 +16,7 @@
     <ol class="carousel-indicators">
         <% loop $CustomSliderImages %>
             <li
-                data-target="#CustomSlider-$ID"
+                data-target="#CustomSlider-$Top.ID"
                 data-slide-to="$Pos(0)"
                 <% if $First %>class="active"<% end_if %>
             ></li>
