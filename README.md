@@ -36,6 +36,12 @@ composer require alexstack/silverstripe-custom-carousel-slider
     - [OwlCarousel001.ss dev document for options](https://owlcarousel2.github.io/OwlCarousel2/demos/demos.html)
 - Also, you are free to use any other carousel slider code you want in your own template  
 
+# Where to display the slider?
+- You can choose to display the slider before or after the main content. It will append the slider to the $Content variable
+- You can also manually insert a variable $showCustomerSlider to any page template. eg. Page.ss, ProductPage.ss, ContactUsPage.ss
+- Example below: we want the slider show under the Header.ss but above the $Title of the Layout/Page.ss
+!['image'](docs/images/add-slider-to-any-place.png)
+
 # Example of display before content (at the top of main content)
 !['image'](docs/images/display-slider-before-content.png)
 

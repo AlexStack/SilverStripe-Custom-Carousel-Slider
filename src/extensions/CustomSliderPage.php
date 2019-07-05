@@ -85,10 +85,11 @@ class CustomSliderPage extends DataExtension
                     'SliderCustomTemplate',
                     $this->owner->fieldLabel('My slider template')
                 )->setDescription('<a href="https://github.com/AlexStack/SilverStripe-Custom-Carousel-Slider/blob/master/README.md#your-own-slider-ss" target="_blank">Click here</a> to find out how to make your own .ss slider template'),
+
                 new DropdownField('SliderDisplayPlace', 'Display Slider Where', [
                     'BeforeContent' => 'Display the Slider before main content',
                     'AfterContent' => 'Display the Slider after main content',
-                    'CustomPlace' => 'Manually insert $showCustomerSlider to my template'
+                    'CustomPlace' => 'Manually insert $showCustomerSlider to your page template'
                 ]),                 
             ]
         );
