@@ -17,7 +17,7 @@
                 class="d-block w-100"
                 src="$Image.URL"
                 alt="$Image.Title"
-            >
+            />
             <% if Title %>
                 <div class="carousel-caption text-center d-none d-md-block slide-content">
                     <% if $LinkTo %>

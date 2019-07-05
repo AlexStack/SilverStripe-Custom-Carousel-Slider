@@ -4,6 +4,13 @@
 <% require javascript("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js") %>
 
 <%-- You can remove above CSS or Javascript if you already imported it somewhere --%>
+<style>
+.carousel-indicators li{
+    width:15px;
+    height:15px;
+    border-radius: 30%;
+}
+</style>
 
 <!-- Bootstrap Carousel template from SSCustomCarouselSlider -->
 <div 
@@ -31,7 +38,7 @@
                     class="d-block w-100"
                     src="$Image.URL"
                     alt="$Image.Title"
-                >
+                />
                 <% if Title %>
                     <div class="carousel-caption text-center d-none d-md-block slide-content">
                         <% if $LinkTo %>

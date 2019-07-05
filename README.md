@@ -12,25 +12,29 @@ composer require alexstack/silverstripe-custom-carousel-slider
 !['image'](docs/images/enable-slider.png)
 
 # How to add slider images
+- You should upload slider images with the same height & width for better visual effect
+- You may want to set up some special css style to make your slider looks better
+
 !['image'](docs/images/add-slider-images.png)
 
 # How to change built-in slider template or disable slider(Not display)
 !['image'](docs/images/built-in-slider-template.png)
 
 
-# Use your own .ss template for the slider
+# <a name="your-own-slider-ss"></a>Use your own .ss template for the slider
 - Example: Copy vendor/alexstack/silverstripe-custom-carousel-slider/templates/SSCustomCarouselSlider/BootstrapSlider001.ss to your-theme/Includes/my-bootstrap-slider.ss , change the slider codes inside to what you want. Just keep the variable name the same.
 !['image'](docs/images/use-your-own-ss.png)
 
-# How to custom the style of the built-in slider
-- Follow above step to copy one of the built-in slider template and rename to your-own-slider.ss
-- Go to the slider document page for more custom style options:
+# <a name="custom-style-for-your-slider"></a>How to custom the style of the built-in slider
+- Follow above step to copy one of the built-in slider templates and rename to your-own-slider.ss
+- Go to below slider document page for more custom style options:
     - [BootstrapSlider001.ss dev document for options](https://getbootstrap.com/docs/4.1/components/carousel)
     - [BxSlider001.ss dev document for options](https://github.com/stevenwanderski/bxslider-4/blob/master/readme.md)
     - [FlexSlider001.ss dev document for options](https://github.com/woocommerce/FlexSlider/blob/master/README.md)
     - [SlickSlider001.ss dev document for options](https://github.com/kenwheeler/slick/blob/master/README.markdown)
     - [LightSlider001.ss dev document for options](http://sachinchoolur.github.io/lightslider/index.html)
     - [OwlCarousel001.ss dev document for options](https://owlcarousel2.github.io/OwlCarousel2/demos/demos.html)
+- Also, you are free to use any other carousel slider code you want in your own template  
 
 # Example of display before content (at the top of main content)
 !['image'](docs/images/display-slider-before-content.png)

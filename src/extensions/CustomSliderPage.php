@@ -70,7 +70,7 @@ class CustomSliderPage extends DataExtension
             'Root.Settings',
             [
 
-                new DropdownField('SliderBuiltInTemplate', 'Choose a Built-In Slider', [
+                DropdownField::create('SliderBuiltInTemplate', 'Choose a Built-In Slider', [
                     '' => 'Enable a Carousel Slider for this page?',
                     'BootstrapSlider001' => 'Bootstrap 4.x Carousel Slider',
                     'SlickSlider001' => 'Slick Carousel Fade In',
@@ -79,11 +79,12 @@ class CustomSliderPage extends DataExtension
                     'LightSlider001' => 'LightSlider without Caption',
                     'OwlCarousel001' => 'OwlCarousel2 without Caption',
                     'CustomTemplate' => 'Use my own slider template below'
-                ]),                    
+                ])->setDescription('<a href="https://github.com/AlexStack/SilverStripe-Custom-Carousel-Slider/blob/master/README.md#custom-style-for-your-slider " target="_blank">Click here</a> to find out how to custom your slider style'),   
+                              
                 TextField::create(
                     'SliderCustomTemplate',
                     $this->owner->fieldLabel('My slider template')
-                ),
+                )->setDescription('<a href="https://github.com/AlexStack/SilverStripe-Custom-Carousel-Slider/blob/master/README.md#your-own-slider-ss" target="_blank">Click here</a> to find out how to make your own .ss slider template'),
                 new DropdownField('SliderDisplayPlace', 'Display Slider Where', [
                     'BeforeContent' => 'Display the Slider before main content',
                     'AfterContent' => 'Display the Slider after main content',

@@ -16,7 +16,8 @@
                 class="d-block w-100"
                 src="$Image.URL"
                 alt="$Image.Title"
-            ><div class="p-2 flex-caption">
+            />
+            <div class="p-2 flex-caption">
             <% if Title %>
                 <div class="carousel-caption">
                     <% if $LinkTo %>
