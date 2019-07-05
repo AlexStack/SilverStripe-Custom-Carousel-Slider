@@ -41,3 +41,5 @@ $(document).ready(function(){
   });
 });
 </script>
+
+<!-- End of the SSCustomCarouselSlider -->

@@ -49,3 +49,5 @@
         }); 
   });
 </script>
+
+<!-- End of the SSCustomCarouselSlider -->

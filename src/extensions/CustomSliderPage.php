@@ -77,6 +77,7 @@ class CustomSliderPage extends DataExtension
                     'FlexSlider001' => 'Flex Slider with Simple Caption',
                     'BxSlider001' => 'Bx Slider with Simple Caption',
                     'LightSlider001' => 'LightSlider without Caption',
+                    'OwlCarousel001' => 'OwlCarousel2 without Caption',
                     'CustomTemplate' => 'Use my own slider template below'
                 ]),                    
                 TextField::create(

@@ -58,3 +58,5 @@
     </a>
 
 </div>
+
+<!-- End of the SSCustomCarouselSlider -->

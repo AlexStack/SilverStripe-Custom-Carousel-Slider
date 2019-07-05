@@ -30,7 +30,7 @@ composer require alexstack/silverstripe-custom-carousel-slider
     - [FlexSlider001.ss dev document for options](https://github.com/woocommerce/FlexSlider/blob/master/README.md)
     - [SlickSlider001.ss dev document for options](https://github.com/kenwheeler/slick/blob/master/README.markdown)
     - [LightSlider001.ss dev document for options](http://sachinchoolur.github.io/lightslider/index.html)
-
+    - [OwlCarousel001.ss dev document for options](https://owlcarousel2.github.io/OwlCarousel2/demos/demos.html)
 
 # Example of display before content (at the top of main content)
 !['image'](docs/images/display-slider-before-content.png)
